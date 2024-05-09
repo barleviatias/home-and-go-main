@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "production ready server",
     "engines": {
-        "node": "14.x"
+        "node": "20.x"
         },
     "main": "server.js",
     "scripts": {
