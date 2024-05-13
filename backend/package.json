@@ -7,7 +7,8 @@
         },
     "main": "server.js",
     "scripts": {
-        "start": "node server.js",
+        "start": "nodemon server.js",
+        "dev": "nodemon server.js",
         "server:dev": "set NODE_ENV=development&&nodemon server.js",
         "server:prod": "set NODE_ENV=production&&nodemon server.js"
     },
